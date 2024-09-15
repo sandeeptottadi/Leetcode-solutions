@@ -18,6 +18,5 @@ var lengthOfLongestSubstring = function(s) {
             dict[s[j]] = j;
         j++;
     }
-    console.log(res, i, j)
     return j-i > res? j-i : res;
 };
